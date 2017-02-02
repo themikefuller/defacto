@@ -78,6 +78,7 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.1",
     "express": "^4.14.0",
+    "method-override": "^2.3.7",
     "pug": "^2.0.0-beta7"
   },
   "description": "A Defacto Express App",
