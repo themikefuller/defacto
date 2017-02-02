@@ -6,6 +6,7 @@ Defacto is an express app with some additional middleware and basic configuratio
 * express.static
 * body-parser
 * cookie-parser
+* method-override
 
 ## Features
 * Express app
@@ -16,6 +17,7 @@ Defacto is an express app with some additional middleware and basic configuratio
 * Default CORS support (from npm cors package)
 * Static file access from a public/ directory
 * Request body parsed for URL-Encoded and JSON request bodies
+* HTTP Method override
 
 ## Basic Usage
     var app = require('defacto');

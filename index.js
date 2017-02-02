@@ -31,4 +31,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 var cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
+// X-HTTP-Method-Override
+var methodOverride = require('method-override');
+app.use(methodOverride('X-HTTP-Method-Override'));
+
 module.exports = app;
