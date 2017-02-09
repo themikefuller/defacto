@@ -27,6 +27,10 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// Multer
+var multer = require('multer');
+var upload = multer({ dest: 'uploads/' })
+
 // Cookie Parser
 var cookieParser = require('cookie-parser');
 app.use(cookieParser());

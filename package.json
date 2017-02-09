@@ -35,6 +35,18 @@
         "type": "tag"
       },
       "/home/mike/micron"
+    ],
+    [
+      {
+        "raw": "defacto",
+        "scope": null,
+        "escapedName": "defacto",
+        "name": "defacto",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/mike/fake"
     ]
   ],
   "_from": "defacto",
@@ -42,8 +54,8 @@
   "_location": "/defacto",
   "_nodeVersion": "7.4.0",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/defacto-0.0.4.tgz_1485869547602_0.14942573243752122"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/defacto-0.0.6.tgz_1486044064891_0.11730200657621026"
   },
   "_npmUser": {
     "name": "themikefuller",
@@ -61,14 +73,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/defacto/-/defacto-0.0.4.tgz",
-  "_shasum": "0f2db1a01b0edc84898fe7b8294c15792d0e41ca",
+  "_resolved": "https://registry.npmjs.org/defacto/-/defacto-0.0.6.tgz",
+  "_shasum": "98fcaa075b34bc53f864661e1d1b6a6a97c66459",
   "_shrinkwrap": null,
   "_spec": "defacto",
-  "_where": "/home/mike/micron",
+  "_where": "/home/mike/fake",
   "author": "Mike Fuller",
   "bugs": {
     "url": "https://github.com/themikefuller/defacto/issues"
@@ -79,14 +90,15 @@
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "method-override": "^2.3.7",
+    "multer": "^1.3.0",
     "pug": "^2.0.0-beta7"
   },
   "description": "A Defacto Express App",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "0f2db1a01b0edc84898fe7b8294c15792d0e41ca",
-    "tarball": "https://registry.npmjs.org/defacto/-/defacto-0.0.4.tgz"
+    "shasum": "98fcaa075b34bc53f864661e1d1b6a6a97c66459",
+    "tarball": "https://registry.npmjs.org/defacto/-/defacto-0.0.6.tgz"
   },
   "homepage": "https://github.com/themikefuller/defacto#readme",
   "keywords": [
@@ -112,5 +124,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }

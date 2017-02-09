@@ -6,6 +6,7 @@ Defacto is an express app with some additional middleware and basic configuratio
 * express.static
 * body-parser
 * cookie-parser
+* multer
 * method-override
 
 ## Features
