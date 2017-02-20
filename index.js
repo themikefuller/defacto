@@ -19,6 +19,10 @@ app.locals.pretty = true;
 var cors = require('cors');
 app.use(cors());
 
+// Compression
+var compression = require('compression');
+app.use(compression());
+
 // Serve static files from public/
 app.use(express.static('public'));
 
