@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/themikefuller/defacto/issues"
   },
-  "homepage": "https://github.com/themikefuller/defacto#readme"
+  "homepage": "https://github.com/themikefuller/defacto#readme",
+  "dependencies": {
+    "@starbase/defacto": "latest"
+  }
 }
