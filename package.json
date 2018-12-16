@@ -1,129 +1,30 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "defacto",
-        "scope": null,
-        "escapedName": "defacto",
-        "name": "defacto",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/mike/micron"
-    ],
-    [
-      {
-        "raw": "defacto",
-        "scope": null,
-        "escapedName": "defacto",
-        "name": "defacto",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/mike/micron"
-    ],
-    [
-      {
-        "raw": "defacto",
-        "scope": null,
-        "escapedName": "defacto",
-        "name": "defacto",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/mike/micron"
-    ],
-    [
-      {
-        "raw": "defacto",
-        "scope": null,
-        "escapedName": "defacto",
-        "name": "defacto",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/home/mike/fake"
-    ]
-  ],
-  "_from": "defacto",
-  "_inCache": true,
-  "_location": "/defacto",
-  "_nodeVersion": "7.4.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/defacto-0.0.6.tgz_1486044064891_0.11730200657621026"
-  },
-  "_npmUser": {
-    "name": "themikefuller",
-    "email": "mike@themike.org"
-  },
-  "_npmVersion": "4.0.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "defacto",
-    "scope": null,
-    "escapedName": "defacto",
-    "name": "defacto",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/defacto/-/defacto-0.0.6.tgz",
-  "_shasum": "98fcaa075b34bc53f864661e1d1b6a6a97c66459",
-  "_shrinkwrap": null,
-  "_spec": "defacto",
-  "_where": "/home/mike/fake",
-  "author": "Mike Fuller",
-  "bugs": {
-    "url": "https://github.com/themikefuller/defacto/issues"
-  },
-  "dependencies": {
-    "body-parser": "^1.16.0",
-    "compression": "^1.6.2",
-    "cookie-parser": "^1.4.3",
-    "cors": "^2.8.1",
-    "express": "^4.14.0",
-    "method-override": "^2.3.7",
-    "multer": "^1.3.0",
-    "pug": "^2.0.0-beta7"
-  },
-  "description": "A Defacto Express App",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "98fcaa075b34bc53f864661e1d1b6a6a97c66459",
-    "tarball": "https://registry.npmjs.org/defacto/-/defacto-0.0.6.tgz"
-  },
-  "homepage": "https://github.com/themikefuller/defacto#readme",
-  "keywords": [
-    "express",
-    "app",
-    "basic",
-    "middleware",
-    "simple",
-    "default",
-    "defacto"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    "themikefuller <mike@themike.org>"
-  ],
   "name": "defacto",
-  "optionalDependencies": {},
+  "version": "0.1.0",
+  "description": "Defacto Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/themikefuller/defacto.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "Express",
+    "Web",
+    "Server",
+    "compression",
+    "json",
+    "body",
+    "parser",
+    "cors",
+    "helmet"
+  ],
+  "author": "Mike Fuller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themikefuller/defacto/issues"
   },
-  "version": "0.0.10"
+  "homepage": "https://github.com/themikefuller/defacto#readme"
 }
